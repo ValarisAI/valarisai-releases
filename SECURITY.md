@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please write to **support@valaris.app** with the subject **“Security”**. Describe what you found, how to repeat
-it and which version of Valaris you used (Settings → About).
+it and which version of ValarisAI you used (Settings → About).
 
 - We reply within a few business days and keep you informed until it is fixed.
 - Please do not publish the details before a fixed version is released.
@@ -12,7 +12,7 @@ it and which version of Valaris you used (Settings → About).
 ## Supported versions
 
 Only the newest version receives fixes. The installed program updates itself; you can also download the newest
-installer from [valaris.app](https://valaris.app).
+installer from [valarisai.app](https://valarisai.app).
 
 ## How releases are protected
 
@@ -22,4 +22,4 @@ installer from [valaris.app](https://valaris.app).
   `Get-FileHash .\ValarisAPP-Setup-<version>.exe` in PowerShell.
 - Builds are checked automatically for leaked data (databases, logs, keys, licence codes, tokens) before release.
 
-More: <https://valaris.app/security.html>
+More: <https://valarisai.app/security.html>
