@@ -5,7 +5,7 @@
 <h1 align="center">ValarisAI for Windows — releases</h1>
 
 <p align="center">All the world's AI in one chat. Hundreds of models through OpenRouter, voice, photos, PDFs and video.<br>
-<a href="https://valarisai.app"><b>valarisai.app</b></a> · <a href="https://valarisai.app/security.html">Security and privacy</a> · <a href="mailto:support@valaris.app">support@valaris.app</a></p>
+<a href="https://valarisai.app"><b>valarisai.app</b></a> · <a href="https://valarisai.app/security.html">Security and privacy</a> · <a href="mailto:support@valarisai.app">support@valarisai.app</a></p>
 
 ---
 
@@ -24,11 +24,11 @@ The installed program updates itself; every update is checked with our signature
 Every release lists the SHA-256 of its installer. In PowerShell:
 
 ```powershell
-Get-FileHash .\ValarisAPP-Setup-1.6.0.exe
+Get-FileHash .\ValarisAI-Setup-1.7.0.exe
 ```
 
 The `Hash` value must be exactly the one in the release notes. If it is different, do not run the file and
-write to support@valaris.app.
+write to support@valarisai.app.
 
 ## Security and privacy in short
 
@@ -40,6 +40,10 @@ write to support@valaris.app.
 - **Signed updates.** Version, file name, size and SHA-256 of every installer are signed with our Ed25519 key; the
   app throws away anything that does not match.
 - **Folders.** The app reads only folders you connect; every change to a file asks you first and can be undone.
+- **How the agent stays in bounds.** In agent mode the model works only inside the folders you connected and can
+  start only programs from a fixed list. Anything that downloads or installs something, and code passed on the
+  command line, is asked every time; a new file's text is shown before you allow it; every change can be undone
+  with «Undo». The model does not help to break into or spy on systems, accounts or people, and does not write malware.
 - **No administrator rights** are needed to install or run ValarisAI.
 
 Details: <https://valarisai.app/security.html>
@@ -58,5 +62,5 @@ See [SECURITY.md](SECURITY.md).
 
 ---
 
-© 2026 ValarisAI · 6 Marjanishvili street, Tbilisi, Georgia ·
+© 2026 ValarisAPP · 6 Marjanishvili street, Tbilisi, Georgia ·
 [Terms](https://valarisai.app/terms.html) · [Privacy](https://valarisai.app/privacy.html)
