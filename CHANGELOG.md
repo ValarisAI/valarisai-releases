@@ -3,6 +3,15 @@
 The main changes of every ValarisAI release. Full release notes, downloads and SHA-256 checksums are on the
 [Releases](https://github.com/ValarisAI/valarisai-releases/releases) page.
 
+## 1.7.2 — 12 November 2026
+- **ValarisAI Auto (Pro):** one task, several models by role (think / work / light), fallback model on failures, spending counted per model.
+- **Programs in the background** (up to two, 10 minutes each, always asked, a «Stop» bar above the input).
+- **Two permission switches:** write / read-only per folder, and «what to ask about» (everything / as usual / only risky things).
+- **Documentation** on the site (valarisai.app/docs, English and Russian); the agent finds programs like a new terminal does; Terms of Use updated.
+## 1.7.1 — 5 November 2026
+- **Run games and apps right in the chat:** a «Run» button under web-page code opens the page in a closed sandbox (no access to chats, keys or files).
+- Six new skills in ValarisAI Hub with the «Runs in chat» mark; a «Copy» bar under long code; interface polish.
+
 ## 1.7.0 — 4 November 2026
 - **One window only:** starting ValarisAI again brings the open window to the front instead of opening a second copy.
 - A calmer «answer is coming» sign: three small purple dots instead of a blinking block.
