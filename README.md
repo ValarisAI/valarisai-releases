@@ -5,7 +5,7 @@
 <h1 align="center">ValarisAI for Windows — releases</h1>
 
 <p align="center">All the world's AI in one chat. Hundreds of models through OpenRouter, voice, photos, PDFs and video.<br>
-<a href="https://valarisai.app"><b>valarisai.app</b></a> · <a href="https://valarisai.app/security.html">Security and privacy</a> · <a href="mailto:support@valarisai.app">support@valarisai.app</a></p>
+<a href="https://valarisai.app"><b>valarisai.app</b></a> · <a href="https://valarisai.app/docs">Documentation</a> · <a href="https://valarisai.app/security.html">Security and privacy</a> · <a href="mailto:support@valarisai.app">support@valarisai.app</a></p>
 
 ---
 
@@ -62,5 +62,5 @@ See [SECURITY.md](SECURITY.md).
 
 ---
 
-© 2026 ValarisAPP · 6 Marjanishvili street, Tbilisi, Georgia ·
+© 2026 ValarisAI · 6 Marjanishvili street, Tbilisi, Georgia ·
 [Terms](https://valarisai.app/terms.html) · [Privacy](https://valarisai.app/privacy.html)
